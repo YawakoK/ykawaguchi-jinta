@@ -7,10 +7,8 @@ If you use these scripts, please cite the paper above and the original tools ref
 # Contents
 
 ## extrinsic.M.RM.E.P.cfg
-Customized AUGUSTUS extrinsic configuration that integrates three hint sources:
-* Repeat (e.g., RepeatMasker/TE hints)
-* Protein (alignments to proteins)
-* cDNA (transcript/cDNA alignments)
+A customized AUGUSTUS configuration file based on the sample extrinsic.cfg.
+It integrates three hint sources: repeat, protein, and cDNA.
 
 ### Reference
 > Keller, O., Kollmar, M., Stanke, M., & Waack, S. (2011). A novel hybrid gene prediction method employing protein multiple sequence alignments. Bioinformatics, 27(6), 757–763. https://doi.org/10.1093/bioinformatics/btr010
