@@ -27,3 +27,10 @@ Nature of change: lightweight derivative, keeping CLI behavior as close to upstr
 
 Usage: Same as the original DotPlotly script. See upstream docs: 
 > https://github.com/tpoorten/dotPlotly
+
+
+## Attribution & License
+
+- Repository license: MIT (see `LICENSE`).
+- AUGUSTUS config (`extrinsic.M.RM.E.P.cfg`): Artistic-2.0 (see `LICENSES/Artistic-2.0.txt` and `THIRD_PARTY_NOTICES.md`).
+- DotPlotly derivative (`pafCoordsDotPlotly_coloredeachaliginment_pdf.R`): MIT.
