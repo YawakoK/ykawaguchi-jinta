@@ -19,9 +19,12 @@ Keller, O., Kollmar, M., Stanke, M., & Waack, S. (2011). A novel hybrid gene pre
 
 ## pafCoordsDotPlotly_coloredeachaliginment_pdf.R
 Modified from: pafCoordsDotPlotly.R in [tpoorten/dotPlotly] (MIT License)
+
 Nature of change: lightweight derivative, keeping CLI behavior as close to upstream as possible.
+
 ### Added features
 * PDF export support
 * Per-alignment coloring (each alignment drawn in a distinct color)
 * Full-chromosome axes (include unaligned regions in the plotted range)
+
 Usage: Same as the original DotPlotly script. See upstream docs: https://github.com/tpoorten/dotPlotly
