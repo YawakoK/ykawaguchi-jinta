@@ -1,11 +1,10 @@
-# Modified from: extrinsic.cfg (AUGUSTUS sample configuration)
-# Purpose: integrate Repeat / Protein / cDNA hints
-# Changes by: Y. W. Kawaguchi (2025)
-#
-# SPDX-License-Identifier: Artistic-2.0
-# Copyright (C) The AUGUSTUS authors
-# Additional modifications Copyright (C) 2025 Yawako W. Kawaguchi
-#
-# This file is a derivative of an AUGUSTUS sample configuration and is
-# distributed under the Artistic License 2.0.
-# See LICENSE.Artistic-2.0 and the AUGUSTUS project for details.
+# Third-Party Notices
+
+## AUGUSTUS
+- Component: `extrinsic.M.RM.E.P.cfg` (derived from an AUGUSTUS sample configuration)
+- License: Artistic-2.0
+- Notes: See `LICENSE.Artistic-2.0`.
+
+## DotPlotly
+- Component: `pafCoordsDotPlotly_coloredeachaliginment_pdf.R` (modified from `pafCoordsDotPlotly.R`)
+- License: MIT (upstream), with modifications © 2025 Y. W. Kawaguchi
