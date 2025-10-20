@@ -32,5 +32,5 @@ Usage: Same as the original DotPlotly script. See upstream docs:
 ## Attribution & License
 
 - Repository license: MIT (see `LICENSE`).
-- AUGUSTUS config (`extrinsic.M.RM.E.P.cfg`): Artistic-2.0 (see `LICENSES/Artistic-2.0.txt` and `THIRD_PARTY_NOTICES.md`).
+- AUGUSTUS config (`extrinsic.M.RM.E.P.cfg`): Artistic-2.0 (see `LICENSE.Artistic-2.0` and `THIRD_PARTY_NOTICES.md`).
 - DotPlotly derivative (`pafCoordsDotPlotly_coloredeachaliginment_pdf.R`): MIT.
