@@ -1,5 +1,25 @@
 #!/usr/bin/env Rscript
 
+# Modified from: pafCoordsDotPlotly.R (tpoorten/dotPlotly)
+# Upstream commit: <HASH>   URL: https://github.com/tpoorten/dotPlotly
+# Changes by: Y. W. Kawaguchi (2025)
+# - Added PDF export
+# - Per-alignment coloring
+# - Full-chromosome axes (include unaligned regions)
+#
+# License: MIT
+# Copyright (c) 2017 Tom Poorten
+# Copyright (c) 2025 Yawako W. Kawaguchi
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# (include or reference the full MIT text)
+
+
 ## Make Dot Plot with Percent Divergence on color scale
 suppressPackageStartupMessages(library(optparse))
 suppressPackageStartupMessages(library(ggplot2))
