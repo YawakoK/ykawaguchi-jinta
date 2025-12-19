@@ -26,9 +26,34 @@ Nature of change: lightweight derivative, keeping CLI behavior as close to upstr
 Usage: Same as the original DotPlotly script. See upstream docs: 
 > https://github.com/tpoorten/dotPlotly
 
+## HiC_plot.py
+A small Python script to generate Hi‑C contact-map visualizations aligned to scaffold/orderings from assembly files. The script reads a three-column Hi‑C matrix, an original assembly file and a curated scaffold/order file, then produces contact-map images showing the raw assembly order and the curated scaffold order for visual comparison.
+
+### Usage
+Create the Hi-C matrix TSV first (example using Juicer Tools):
+```
+java -jar juicer_tools.jar dump observed KR <hic_file> assembly assembly BP 2500000 > <hic_matrix.tsv>
+```
+Then run the plotting script:
+```
+python HiC_plot.py -a <assembly_original> -c <assembly_curated> -m <hic_matrix.tsv> -o <output.png>
+```
+#### Options:
+* -a, --assembly0 : Original assembly file (required).
+* -c, --assembly-curated : Curated assembly (scaffold order) file (required).
+* -m, --hic-matrix : Hi‑C matrix TSV file (required).
+* -o, --output : Output filename with extension (png or pdf). The base name is used and the script writes files named <base>.<ext>.
+* -s, --scale-factor : Float multiplier applied to matrix coordinates before binning (default: 2).
+* --max-scaffolds : Limit number of curated scaffolds used (set 0 for all).
+
+### Requirements
+* Python:: 3.+ 
+* Libraries:: pandas, numpy, matplotlib
+* JuicerTools:: v1.9.9
 
 ## Attribution & License
 
 - Repository license: MIT (see `LICENSE`).
 - AUGUSTUS config (`extrinsic.M.RM.E.P.cfg`): Artistic-2.0 (see `LICENSE.Artistic-2.0` and `THIRD_PARTY_NOTICES.md`).
 - DotPlotly derivative (`pafCoordsDotPlotly_coloredeachaliginment_pdf.R`): MIT.
+- HiC contact map (`HiC_plot.py`): MIT.
