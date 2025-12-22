@@ -38,6 +38,8 @@ Then run the plotting script:
 ```
 python HiC_plot.py -a <assembly_original> -c <assembly_curated> -m <hic_matrix.tsv> -o <output.png>
 ```
+Note: the example uses a resolution of 2,500,000 bp. To change the resolution, adjust the BP value in the Juicer Tools command above and the BIN value at L1 of` HiC_plot.py`
+
 #### Options:
 * -a, --assembly0 : Original assembly file (required).
 * -c, --assembly-curated : Curated assembly (scaffold order) file (required).
@@ -50,6 +52,7 @@ python HiC_plot.py -a <assembly_original> -c <assembly_curated> -m <hic_matrix.t
 * Python:: 3.+ 
 * Libraries:: pandas, numpy, matplotlib
 * JuicerTools:: v1.9.9
+  * required. Newer versions may change output formats and are not guaranteed to be compatible; use v1.9.9 when generating the initial .hic and assembly files with juicer_tools.jar.
 
 ## Attribution & License
 
