@@ -52,7 +52,7 @@ Note: the example uses a resolution of 2,500,000 bp. To change the resolution, a
 * Python:: 3.+ 
 * Libraries:: pandas, numpy, matplotlib
 * JuicerTools:: v1.9.9
-  * required. Newer versions may change output formats and are not guaranteed to be compatible; use v1.9.9 when generating the initial .hic and assembly files with juicer_tools.jar.
+  * required. Outputs of newer versions are not compatible; use v1.9.9 when generating the initial .hic and assembly files with juicer_tools.jar.
 
 ## Attribution & License
 
