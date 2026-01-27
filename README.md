@@ -1,6 +1,6 @@
 This repository contains small utilities and configuration files used in our manuscript:
 
-> Kawaguchi Y. W. et al. Improved genome assembly of whale shark, the world’s biggest fish: revealing “chromocline” in intragenomic heterogeneity (in prep.)
+> Kawaguchi Y. W. et al. Improved genome assembly of whale shark, the world's biggest fish: revealing intragenomic heterogeneity in molecular evolution (in prep.)
 
 If you use these scripts, please cite the paper above and the original tools referenced below.
 
